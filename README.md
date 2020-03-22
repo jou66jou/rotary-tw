@@ -23,7 +23,7 @@ func SetRoutes(e *echo.Echo, h *handler) {
 
 // UserResp 取得 User
 type UserResp struct {
-	Data user.User `json:"data"`
+	Data user.User `json:"data"` // user.User 是指向 user.go 裡的 User struct
 }
 
 // getUserEndpoint get User
