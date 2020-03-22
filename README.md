@@ -60,7 +60,7 @@ https://oranwind.org/go-go-yu-yan-yu-windows-shang-zhi-an-zhuang-yu-huan-jing-sh
 https://ithelp.ithome.com.tw/articles/10200457
 
 # 本地編譯指南
-裝好 Golang 後請於小黑窗執行 `go env`，若能順利跑出東西則代表安裝 golang 成功，接著在專案資料夾運行 makefile 即可建立本地伺服器
+裝好 Golang 後請於小黑窗執行 `go env`，若能順利跑出東西則代表安裝 golang 成功，接著在專案資料夾運行下方指令就可以建立本地伺服器了
 ```cmd
 make build.run
 ```
